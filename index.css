@@ -72,6 +72,7 @@ button {
   text-align: center;
   padding: 15px;
   outline: none;
+  cursor: pointer;
 }
 
 #comment {
