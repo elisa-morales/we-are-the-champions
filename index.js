@@ -30,7 +30,7 @@ publishBtn.addEventListener("click", () => {
     })
     clearInputs()
   } else {
-    console.log("It is necessary to fill in all fields!")
+    alert("It is necessary to fill in all fields!")
   }
 })
 
