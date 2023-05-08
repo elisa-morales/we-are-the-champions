@@ -1,86 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap");
 
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #111827;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111827;
 }
 
-h1, h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: 25px;
-    color: #FFFFFF;
+h1,
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 h2 {
-    font-size: 20px;
-    margin-top: 25px;
+  font-size: 20px;
+  margin-top: 25px;
 }
 
 img {
-    width: 150px;
-    margin: 0 auto;
+  width: 150px;
+  margin: 0 auto;
 }
 
-input, textarea {
-    background-color: #444059;
-    color: #8F8F8F;
-    border: none;
-    border-radius: 8px;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    outline: none;
+input,
+textarea {
+  background-color: #444059;
+  color: #8f8f8f;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  outline: none;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 30px auto;
 }
 
 #endorsement-field {
-    height: 118px;
-    resize: none;
-    padding: 12px;
+  height: 118px;
+  resize: none;
+  padding: 12px;
 }
 
 .input-field {
-    width: 50%;
-    padding: 12px;
+  width: 50%;
+  padding: 12px;
 }
 
 .input-containter {
-    display: flex;
-    gap: 10px;
-    padding: 12px 0;
+  display: flex;
+  gap: 10px;
+  padding: 12px 0;
 }
 
 button {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    background-color: #28A9F1;
-    color: #04131C;
-    border: none;
-    border-radius: 8px;
-    font-size: 22px;
-    text-align: center;
-    padding: 15px;
-    outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  background-color: #28a9f1;
+  color: #04131c;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  outline: none;
 }
 
 #comment {
-    position: relative;
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    background-color: #FFFFFF;
-    color: #1B1924;
-    padding: 7px 14px;
-    margin: 12px;
-    display: grid;
-    grid-template-areas: 
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  background-color: #ffffff;
+  color: #1b1924;
+  padding: 7px 14px;
+  margin: 12px;
+  display: grid;
+  grid-template-areas:
     "to to to"
     "message message message"
     "from like numlikes";
@@ -88,43 +91,41 @@ button {
 
 #to-content,
 #from-content {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #to-content {
-    grid-area: to;
+  grid-area: to;
 }
 
 #from-content {
-    grid-area: from;
+  grid-area: from;
 }
 
 #comment-content {
-    grid-area: message;
+  grid-area: message;
 }
 
 .bx-heart,
 .bxs-heart {
-    position: absolute;
-    top: 42%;
-    left: 170%;
-    font-size: 15px;
-    grid-area: like;
-    cursor: pointer;
+  position: absolute;
+  top: 42%;
+  left: 170%;
+  font-size: 15px;
+  grid-area: like;
+  cursor: pointer;
 }
 
 #num-likes {
-    position: absolute;
-    left: 85%;
-    grid-area: numlikes;
-    padding: 5px;
+  position: absolute;
+  left: 85%;
+  grid-area: numlikes;
+  padding: 5px;
 }
 
 #no-msg {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
 }
-
-
