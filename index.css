@@ -87,7 +87,7 @@ button {
   grid-template-areas:
     "to to to"
     "message message message"
-    "from like numlikes";
+    "from from like";
 }
 
 #to-content,
@@ -107,21 +107,21 @@ button {
   grid-area: message;
 }
 
+.likes-container {
+  display: flex;
+  justify-content: flex-end;
+  grid-area: like;
+}
+
 .bx-heart,
 .bxs-heart {
-  position: absolute;
-  top: 42%;
-  left: 170%;
   font-size: 15px;
-  grid-area: like;
+  margin: 12px 7px;
   cursor: pointer;
 }
 
 #num-likes {
-  position: absolute;
-  left: 85%;
-  grid-area: numlikes;
-  padding: 5px;
+  margin: 12px 0;
 }
 
 #no-msg {

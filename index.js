@@ -77,8 +77,10 @@ function renderMessages(id, item) {
             <p id="to-content">To ${item.to}</p>
             <p id="comment-content">${item.message}</p>
             <p id="from-content">From ${item.author}</p>
-            <i class="${item.isLiked ? "bx bxs-heart" : "bx bx-heart"}"
-            data-like="${id}"></i> <p id="num-likes">${item.likes}</p>
+            <div class="likes-container">
+              <i class="${item.isLiked ? "bx bxs-heart" : "bx bx-heart"}"
+              data-like="${id}"></i> <p id="num-likes">${item.likes}</p>
+            </div>
         </div>
         `
 }
